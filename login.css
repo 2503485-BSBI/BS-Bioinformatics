@@ -1,41 +1,82 @@
 body {
-    background: linear-gradient(145deg, #022345, #E5ECFF, #3B5673);
+    background-color: white;
 }
 
-.base {
-    background: linear-gradient(128deg, #022345, #E9F1FE);
-    border: 2px groove #ffffff;
-    width: 400px;
-    height: 500px;
+.form {
+    width: 600px;
+    height: 550px;
+    background: linear-gradient(128deg, #022345, #254b71, #022345);
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 5px 5px rgb(101, 102, 111);
+    border-radius: 6%;
+    border: 2px black;
+    margin: 40px;
     position: absolute;
-    top: 10%;
-    left: 35%;
+    left: 350px;
 
 }
-
-.entities {
-    background-color: #E9F1FE;
-    border: 3px #ffffff;
-    width: 200px;
-    height: 35px;
-    position: absolute;
-    top: 35%;
-    left: 30%;
-}
-
 
 h1 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 50px;
     color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
+    font-size: 40px;
+    text-shadow: 1px 1px 3px black;
+    margin-top: 80px;
 }
 
-h3 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 22px;
+#fname {
     color: aliceblue;
-    text-align: left;
+    margin-top: 40px;
+    margin-left: 80px;
+    float: left;
+    text-shadow: 1px 1px 3px black
+}
+
+#name1 {
+    background: none;
+    border-color: aliceblue;
+    outline-color: 2px #022345;
+    height: 37px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+
+    color: white;
     margin-left: 30px;
-    margin-top: 90px;
+    width: 55%;
+}
+
+#name1::placeholder {
+    color: rgba(255, 255, 255, 0.40);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+#lname {
+    color: aliceblue;
+    margin-top: 40px;
+    margin-left: 202px;
+    float: left;
+    text-shadow: 1px 1px 3px black;
+}
+
+#name2 {
+    background: none;
+    border-color: aliceblue;
+    outline-color: 2px #022345;
+    ;
+    height: 37px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: white;
+    margin-right: 30px;
+    float: right;
+    width: 55%;
+}
+
+#name2::placeholder {
+    color: rgba(255, 255, 255, 0.40);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
 }
