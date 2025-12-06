@@ -4,7 +4,7 @@ body {
 
 .form {
     width: 600px;
-    height: 550px;
+    height: 700px;
     background: linear-gradient(128deg, #022345, #254b71, #022345);
     justify-content: space-between;
     align-items: center;
@@ -127,8 +127,20 @@ h1 {
     width: 64%;
 }
 
-#enter_password ::placeholder {
+#enter_password::placeholder {
     color: rgba(255, 255, 255, 0.40);
     font-family: 'Times New Roman', Times, serif;
     font-size: 24px;
+}
+
+#button {
+    background: linear-gradient(90deg, rgb(9, 48, 88), #193755, rgb(9, 48, 88));
+    box-shadow: 1px 1px 8px #6b9bcb;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: aliceblue;
+    width: 300px;
+    height: 60px;
+    margin-top: 60px;
+    margin-left: 130px;
 }
