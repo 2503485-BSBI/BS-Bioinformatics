@@ -3,179 +3,157 @@ body {
 }
 
 .form {
-    width: 600px;
-    height: 800px;
+    width: 500px;
+    height: 560px;
     background: linear-gradient(128deg, #022345, #254b71, #022345);
-    justify-content: space-between;
-    align-items: center;
     box-shadow: 5px 5px 5px rgb(101, 102, 111);
     border-radius: 6%;
     border: 2px black;
     margin: 40px;
     position: absolute;
-    left: 350px;
-
+    left: 380px;
 }
 
 h1 {
     color: aliceblue;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    font-size: 40px;
+    font-size: 38px;
     text-shadow: 1px 1px 3px black;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 #fname {
     color: aliceblue;
-    margin-top: 40px;
-    margin-left: 80px;
+    margin-top: 10px;
+    margin-left: 100px;
     float: left;
-    text-shadow: 1px 1px 3px black
+    text-shadow: 1px 1px 3px black;
 }
 
 #name1 {
     background: none;
     border-color: aliceblue;
-    outline-color: 2px #022345;
-    height: 37px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 19px;
+    border-radius: 10px;
+    height: 30px;
+    width: 62%;
+    font-size: 15px;
+    font-family: serif;
     color: white;
-    margin-left: 55px;
-    width: 33%;
+    margin-left: 80px;
+    float: left;
 }
 
 #name1::placeholder {
     color: rgba(255, 255, 255, 0.40);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 24px;
-}
-
-#lname {
-    color: aliceblue;
-    margin-top: 40px;
-    margin-left: 202px;
+    font-size: 15px;
     float: left;
-    text-shadow: 1px 1px 3px black;
+    margin-left: 10px;
 }
 
-#name2 {
-    background: none;
-    border-color: aliceblue;
-    outline-color: 2px #022345;
-    height: 37px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 19px;
-    color: white;
-    margin-right: 50px;
-    float: right;
-    width: 33%;
-}
-
-#name2::placeholder {
-    color: rgba(255, 255, 255, 0.40);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 24px;
-}
 
 #email {
     color: aliceblue;
-    margin-top: 80px;
-    margin-left: 80px;
+    margin-top: 30px;
+    margin-left: 100px;
     float: left;
-    text-shadow: 1px 1px 3px black
+    text-shadow: 1px 1px 3px black;
 }
 
 #enter_email {
     background: none;
     border-color: aliceblue;
-    outline-color: 2px #022345;
-    height: 37px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 19px;
+    border-radius: 10px;
+    height: 30px;
+    width: 62%;
+    font-size: 15px;
+    font-family: serif;
     color: white;
-    margin-left: 55px;
+    margin-left: 80px;
     float: left;
-    width: 69%;
+
 }
 
 #enter_email::placeholder {
     color: rgba(255, 255, 255, 0.40);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 24px;
+    font-size: 15px;
+    float: left;
+    margin-left: 10px;
 }
 
 #password {
     color: aliceblue;
-    margin-top: 50px;
-    margin-left: 80px;
+    margin-top: 40px;
+    margin-left: 100px;
     float: left;
-    text-shadow: 1px 1px 3px black
+    text-shadow: 1px 1px 3px black;
 }
 
 #enter_password {
     background: none;
     border-color: aliceblue;
-    outline-color: 2px #022345;
-    height: 37px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 19px;
+    border-radius: 10px;
+    height: 30px;
+    width: 62%;
+    font-size: 15px;
+    font-family: serif;
     color: white;
-    margin-left: 55px;
+    margin-left: 80px;
     float: left;
-    width: 69%;
 }
 
 #enter_password::placeholder {
     color: rgba(255, 255, 255, 0.40);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 24px;
+    font-size: 15px;
+    float: left;
+    margin-left: 10px;
 }
 
 #button {
     background: linear-gradient(90deg, rgb(9, 48, 88), #193755, rgb(9, 48, 88));
     box-shadow: 1px 1px 8px #6b9bcb;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
+    font-size: 28px;
     color: aliceblue;
     width: 300px;
-    height: 60px;
-    margin-top: 70px;
-    margin-left: 140px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 90px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 #created {
-    width: 500px;
-    height: 60px;
+    width: 400px;
+    height: 55px;
     background: linear-gradient(128deg, #022345, #254b71, #022345);
     box-shadow: 4px 4px black;
     border: 1px solid black;
-    backdrop-filter: blur(10px);
     border-radius: 10px;
     display: none;
     position: absolute;
-    top: 40%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: aliceblue;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
     text-align: center;
-    font-size: 40px;
     text-shadow: 1px 1px 3px black;
 }
 
 #refresh {
     color: aliceblue;
-    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 60%;
-    height: 40%;
+    height: 35%;
     background: none;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     text-shadow: 1px 1px 3px black;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 20%;
 }
